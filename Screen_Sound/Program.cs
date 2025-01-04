@@ -2,7 +2,7 @@
 
 string mensagemDeBoasVindas = "Seja bem vindo ao App";
 
-void ExibirMensagemDeBoasVindas()
+void ExibirLogo()
 {
          Console.WriteLine(@"
 ░██████╗░█████╗░██████╗░███████╗███████╗███╗░░██╗  ░██████╗░█████╗░██╗░░░██╗███╗░░██╗██████╗░
@@ -19,7 +19,7 @@ Console.WriteLine("***************************");
 
 void ExibirOpcoesDoMenu()
 {
-    
+    ExibirLogo();
     Console.WriteLine("\nDigite 1 para registrtar uma banda");
     Console.WriteLine("Digite 2 para mostrar todas as bandas");
     Console.WriteLine("Digite 3 para avaliar uma banda");
@@ -31,7 +31,7 @@ void ExibirOpcoesDoMenu()
     int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
 
     switch(opcaoEscolhidaNumerica){
-        case 1: Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
+        case 1: RegistrarBandas();
             break;
         case 2: Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
             break;
@@ -46,7 +46,18 @@ void ExibirOpcoesDoMenu()
     }
 }
 
-ExibirMensagemDeBoasVindas();
+void RegistrarBandas(){
+    ExibirLogo();
+    Console.Clear();
+    Console.WriteLine("Registro de bandas: ");
+    Console.Write("Digite o nome da banda que deseja registrar: ");
+    string nomeDaBanda = Console.ReadLine()!;
+    Console.WriteLine($"A banda  {nomeDaBanda} Foi registrada com sucesso");
+    Thread.Sleep(2000);
+    Console.Clear();
+    ExibirOpcoesDoMenu();
+}
+
 ExibirOpcoesDoMenu();
 
 
