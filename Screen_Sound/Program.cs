@@ -1,6 +1,7 @@
 ﻿// Screen Sound
 
 string mensagemDeBoasVindas = "Seja bem vindo ao App";
+List<string> listaDasBandas = new List<string>();
 
 void ExibirLogo()
 {
@@ -52,6 +53,7 @@ void RegistrarBandas(){
     Console.WriteLine("Registro de bandas: ");
     Console.Write("Digite o nome da banda que deseja registrar: ");
     string nomeDaBanda = Console.ReadLine()!;
+    listaDasBandas.Add(nomeDaBanda);
     Console.WriteLine($"A banda  {nomeDaBanda} Foi registrada com sucesso");
     Thread.Sleep(2000);
     Console.Clear();
