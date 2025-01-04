@@ -78,9 +78,13 @@ void MostrarandasRegistradas()
     Console.WriteLine("*************************************");
     Console.WriteLine("Exibindo as bandas registradas: ");
     Console.WriteLine("*************************************\n");
-    for (int i = 0; i < listaDasBandas.Count; i++)
-    {
-        Console.WriteLine($"Banda: {listaDasBandas[i]}");
+    // for (int i = 0; i < listaDasBandas.Count; i++)
+    // {
+    //     Console.WriteLine($"Banda: {listaDasBandas[i]}");
+    // }
+
+    foreach (string banda in listaDasBandas){
+        Console.WriteLine($"Banda: {banda}");
     }
     Console.WriteLine("\nDigite uma tecla para voltar ao menu principal: ");
     Console.ReadKey();
