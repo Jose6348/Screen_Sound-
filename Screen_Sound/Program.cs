@@ -25,6 +25,15 @@ void ExibirOpcoesDoMenu()
     Console.WriteLine("Digite 3 para avaliar uma banda");
     Console.WriteLine("Digite 4 para exibir a médias de uma banda");
     Console.WriteLine("Digite -1 para sair");
+
+    Console.Write("\nDigite a sua opção: ");
+    string opcaoEscolhida = Console.ReadLine()!;
+    int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
+
+    if (opcaoEscolhidaNumerica == 1)
+    {
+        Console.WriteLine("Você digitou a opção " + opcaoEscolhida);
+    }
 }
 
 ExibirMensagemDeBoasVindas();
