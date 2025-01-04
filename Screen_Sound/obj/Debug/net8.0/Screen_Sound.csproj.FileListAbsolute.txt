@@ -1,0 +1,15 @@
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\bin\Debug\net8.0\Screen_Sound.exe
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\bin\Debug\net8.0\Screen_Sound.deps.json
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\bin\Debug\net8.0\Screen_Sound.runtimeconfig.json
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\bin\Debug\net8.0\Screen_Sound.dll
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\bin\Debug\net8.0\Screen_Sound.pdb
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\obj\Debug\net8.0\Screen_Sound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\obj\Debug\net8.0\Screen_Sound.AssemblyInfoInputs.cache
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\obj\Debug\net8.0\Screen_Sound.AssemblyInfo.cs
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\obj\Debug\net8.0\Screen_Sound.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\obj\Debug\net8.0\Screen_Sound.sourcelink.json
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\obj\Debug\net8.0\Screen_Sound.dll
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\obj\Debug\net8.0\refint\Screen_Sound.dll
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\obj\Debug\net8.0\Screen_Sound.pdb
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\obj\Debug\net8.0\Screen_Sound.genruntimeconfig.cache
+C:\Users\Jorge\Desktop\Cursos\Curso alura\Screen_Sound\Screen_Sound\obj\Debug\net8.0\ref\Screen_Sound.dll
